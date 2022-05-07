@@ -10,10 +10,10 @@ const listGifts = (letter) => {
 		if (cartaObject[item]) {
 			cartaObject[item]++;
 		} else {
-		cartaObject[item] = 1;
+			cartaObject[item] = 1;
 		}
 	});
-return cartaObject;
+	return cartaObject;
 }
 
 const regalos = listGifts(letter)
